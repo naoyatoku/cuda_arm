@@ -1,0 +1,42 @@
+-----------------------------------------------------------------------------------------------------------------------------
+    cuda 注意点まとめ       ：  意味がわからずはまったエラーと対処をまとめておく。
+-----------------------------------------------------------------------------------------------------------------------------
+・分散コンパイルを行う（呼び出し元と異なるソースファイルに実体がある）場合、CUDAのRDC(Relocatable Device Code)を有効にするコンパイルオプション
+    （-rdc=true）を設定する必要がある。
+
+    ●プロパティの [CUDA C/C++]- [CommandLine] - 追加のオプション欄に、「-rdc=true」を追加したが、その場合に、リンカエラー
+    「LNK2019	未解決の外部シンボル __cudaRegisterLinkedBinary_d81e5cf7_9_kernel_cu_f853efa9 が関数 "void __cdecl __nv_cudaEntityRegisterCallback(void * *)" (?__nv_cudaEntityRegisterCallback@@YAXPEAPEAX@Z) で参照されました	test	C:\private\cuda\cuda_SM89_test\test\test\kernel.cu.obj」
+    というエラーが発生してしまう。このエラーの直接の意味は、CUDAのライブラリにある __nv_cudaEntityRegisterCallback()という関数がリンク時に見つからないというもの。
+    ライブラリの設定がされていないのではと思ったが、CUDAのプロジェクトを作成した時点で
+    cudart.lib、cudadevrt.libの二つのライブラリが入力に加えられている（[リンカー]-[入力]-[追加の依存ファイル]に記述されいてる）ため、
+    問題はない。
+    結局解決策は、直接コマンドラインの追加するのではなく、
+        [CUDA C/C++] - [Common] - [Generate Rrelocatable Device Code]を「はい」にすることで自動的にオプションが追加され、リンクもうまくいった。
+    
+・SM（並列処理コア）には世代があり、それぞれ異なるデバイスコードがあり、コンパイル時に選択する必要がある。
+    VisualStudioでデフォルトでsm_52の設定になっている。[CUDA C/C++] - [Device] - [Code Generation] に記述。
+    自分のPCのGPUのSM世代を調べるには、
+        __host__
+        void dumpGPUInfo()
+        {
+
+            int numSMs;
+            cudaDeviceGetAttribute(&numSMs, cudaDevAttrMultiProcessorCount, 0);
+            std::cout << "Number of SMs: " << numSMs << std::endl;
+
+            {
+                int device;
+                cudaDeviceProp prop;
+
+                // デバイスの取得
+                cudaGetDevice(&device);
+
+                // デバイスプロパティの取得
+                cudaGetDeviceProperties(&prop, device);
+                printf("CUDA Capability Major/Minor version number: %d.%d\n", prop.major, prop.minor);
+            }
+        }
+        上記のコードをCUDAプロジェクトで実行すると、一番したの
+        「CUDA Capability Major/Minor version number=8.9」という表示が出る。
+        この場合はsm_89なので、
+        [CUDA C/C++] - [Device] - [Code Generation] に、「compute_89,sm_89」の設定を追加し、左下の「親またはプロジェクトの規定値から継承」チェックボックスははずす。

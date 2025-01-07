@@ -200,8 +200,7 @@
               "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\BuildCustomizations\\CUDA 12.2.targets",
               "ViewState": "AQIAABIDAAAAAAAAAAAiwCIDAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-12-27T03:43:02.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T03:43:02.727Z"
             },
             {
               "$type": "Document",
@@ -225,8 +224,7 @@
               "RelativeToolTip": "cuda_arm\\kernel_bezier.cu",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-26T07:46:25.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T07:46:25.839Z"
             },
             {
               "$type": "Document",
@@ -416,7 +414,7 @@
               "RelativeDocumentMoniker": "cuda_arm\\kernel_linear.cu",
               "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel_linear.cu",
               "RelativeToolTip": "cuda_arm\\kernel_linear.cu",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAjwFwAAAAAAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAjwGAAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-26T04:53:48.786Z",
               "EditorCaption": ""
