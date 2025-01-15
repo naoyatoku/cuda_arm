@@ -160,7 +160,10 @@ void bezier_path()
                 _path_idx(CPU) = best_timing + best_path_idx;
                 _path.Transfer_to_GPU();
                 _path_idx.Transfer_to_GPU();
-                _dump_path(_path, _path_idx);
+
+                for (;;) {
+                    _draw_path(_path, _path_idx, 2);
+                }
             }
         }
     }

@@ -12,11 +12,24 @@ const int WINDOW_HEIGHT = 1000;
 const int ORG_X = WINDOW_WIDTH / 2;
 const int ORG_Y = WINDOW_HEIGHT / 2;
 
+//このモジュール独自にarmオブジェクトを持ちます。
+static arm  __arm;
+
+//アーム状態を
+
+//外部からアームを受けて描画更新をしてみる。
+void	draw(const arm& _arm) {
+	__arm = _arm;
+	::SetEvent(_draw_req_event);
+}
+
+
+
 
 //void draw()
 DWORD WINAPI draw_thread(LPVOID param) 
 {
-	_draw_req_event = CreateEvent(NULL, TRUE, FALSE, NULL);
+	_draw_req_event = CreateEvent(NULL, FALSE, FALSE, NULL);
 	_Assert(_draw_req_event != NULL, "dreaw_thread : event create failed");
 
         // ウィンドウの作成
@@ -48,6 +61,8 @@ DWORD WINAPI draw_thread(LPVOID param)
 	sf::RectangleShape l2(sf::Vector2f(210.f, 2.f));    l2.setFillColor(sf::Color::Green);
 	sf::RectangleShape l3(sf::Vector2f(144.f, 2.f));    l3.setFillColor(sf::Color::Magenta);
 
+
+	_cood before;
 	while (window.isOpen()) {
 		// イベント処理
 		sf::Event event;
@@ -61,17 +76,21 @@ DWORD WINAPI draw_thread(LPVOID param)
 			// イベントを待機
 			WaitForSingleObject(_draw_req_event, 1000);
 		}
+//		if (__arm.operator==(before)) {
+//			continue;
+//		}
+//		printf("D");
 
 		window.clear(sf::Color::White);
 
 		//各アームを動作させる
 		l1.setPosition(ORG_X, ORG_Y);				//これはリンクの先端の座標。
-		l1.setRotation(-1 * _deg(_arm.lnk(0).r));	//角度をそこにする。y軸は反対になる。
+		l1.setRotation(-1 * _deg(__arm.lnk(0).r));	//角度をそこにする。y軸は反対になる。
 		//この場合、根本の座標なんで一つ前の軸の先端座標を指定しないといけない。
-		l2.setPosition(ORG_X + _arm.lnk(0).linked_vect().x, ORG_Y - _arm.lnk(0).linked_vect().y);	//l1の先端座標にする。
-		l2.setRotation(-1 * _deg(_arm.lnk(0).r + _arm.lnk(1).r));								//角度をそこにする。
-		l3.setPosition(ORG_X + _arm.lnk(1).linked_vect().x, ORG_Y - _arm.lnk(1).linked_vect().y);	//21の先端座標にする。
-		l3.setRotation(-1 * _deg(_arm.lnk(0).r + _arm.lnk(1).r + _arm.lnk(2).r));	//角度をそこにする。
+		l2.setPosition(ORG_X + __arm.lnk(0).linked_vect().x, ORG_Y - __arm.lnk(0).linked_vect().y);	//l1の先端座標にする。
+		l2.setRotation(-1 * _deg(__arm.lnk(0).r + __arm.lnk(1).r));								//角度をそこにする。
+		l3.setPosition(ORG_X + __arm.lnk(1).linked_vect().x, ORG_Y - __arm.lnk(1).linked_vect().y);	//21の先端座標にする。
+		l3.setRotation(-1 * _deg(__arm.lnk(0).r + __arm.lnk(1).r + __arm.lnk(2).r));	//角度をそこにする。
 
 		//
 		// 
@@ -87,6 +106,8 @@ DWORD WINAPI draw_thread(LPVOID param)
 
 		window.display();
 
+
+		before = __arm;
 //		::Sleep(1);
 	}
 	return 0;

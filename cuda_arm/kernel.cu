@@ -1,5 +1,6 @@
 ﻿#include "kernels.h"
-
+#include "draw.h"
+#include "stdio.h"
 //リダクション.最大のものだけを選択する
 __device__
 void _do_reduction(int* reduction_arr, int arr_size)
@@ -28,6 +29,41 @@ void _do_reduction(int* reduction_arr, int arr_size)
         __syncthreads();
     }
 }
+
+//
+__host__
+void _dump_path(cpu_gpu_mem<arm>& path, cpu_gpu_mem<int>& path_idx, bool disp_link/*=false*/)
+{
+    path.Transfer_to_CPU();
+    path_idx.Transfer_to_CPU();
+    for (int i = 0; i < path_idx(CPU); ++i) {
+        const arm& cur = path(CPU, i);
+        printf("[%d](%f,%f,%f)spd(%f)\r\n", i, cur.x, cur.y, cur.rad, cur.d.spd);
+        if (disp_link) {
+            for (int l = 0; l < 3; ++l) {
+                printf("        L%d(pos[%f(deg:%f)]spd[%f]\r\n", l, cur.lnk(l).r, RAD2DEG(cur.lnk(l).r), cur.lnk(l).d.spd);
+            }
+        }
+    }
+}
+static int __a; //デバッグ用
+__host__
+void _draw_path(cpu_gpu_mem<arm>& path, cpu_gpu_mem<int>& path_idx, int wait/*=1*/)
+{
+    path.Transfer_to_CPU();
+    path_idx.Transfer_to_CPU();
+    for (int i = 0; i < path_idx(CPU); ++i) {
+        const arm& cur = path(CPU, i);
+        draw(cur);
+//        ::Sleep(wait);
+        //ウェイトを
+        for (int i = 0; i < (100000)*wait; ++i) {
+            __a++;
+        }
+//        printf(".");
+    }
+}
+
 
 
 template<>

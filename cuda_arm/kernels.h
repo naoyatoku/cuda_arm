@@ -13,7 +13,6 @@ enum{
     START,
     END
 };
-
 //方向を表す共通定義です。
 enum{
    	DIR_P=1, 
@@ -35,26 +34,24 @@ enum {
 #define N_ALL_THREAD (N_THREAD*N_BLOCK)
 
 
-void circle_path();         //成功配列から、一番効率のいいものを選択して実際にアームを動作させる
-void circle_circle_path();
-void circle_path_2();       //
-
+//=================================================================================
+// 個別の軌跡作成用関数定義
+//=================================================================================
 //直線運動      kernel_linear.cu
 void line_path();
-void _dump_path(cpu_gpu_mem<arm>& path, cpu_gpu_mem<int>& path_idx, bool disp_link = false, int wait = 0);
-
-
-//円運動        kernel_circle.cu
-void circle_path();
-
 //ベジェ曲線運動 kernel_bezier.cu
 void bezier_path();
 
+
+
+
+//=================================================================================
+//      共通のサブルーチン
+//=================================================================================
 __device__
 void _do_reduction(int* reduction_arr, int arr_size);
-
-
-
+void _dump_path(cpu_gpu_mem<arm>& path, cpu_gpu_mem<int>& path_idx,bool dump_link=false);
+void _draw_path(cpu_gpu_mem<arm>& path, cpu_gpu_mem<int>& path_idx, int wait=1);
 
 //=================================================================================
 //  テンプレート実装です。
@@ -248,3 +245,12 @@ int _kernel(arm * _arm , void  *_p_path_class , float tgt_spd, int dir , _cood *
     }
     return fin(CPU);
 }
+
+
+
+
+//void circle_path();         //成功配列から、一番効率のいいものを選択して実際にアームを動作させる
+//void circle_circle_path();
+//void circle_path_2();       //
+//円運動        kernel_circle.cu
+//void circle_path();

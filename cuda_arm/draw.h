@@ -4,4 +4,5 @@
 //void draw();
 DWORD WINAPI draw_thread(LPVOID param);
 
-extern HANDLE _draw_req_event; // イベントオブジェクトのハンドル
+//描画リクエスト受付を作ってみます。
+void	draw(const arm& _arm);
