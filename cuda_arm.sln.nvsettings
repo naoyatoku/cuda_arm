@@ -1,2 +1,2 @@
 [WarpWatch]
-Expressions=reduction_arr[_idx]
+Expressions=block_result[threadIdx.x], _reduction[ threadIdx.x]

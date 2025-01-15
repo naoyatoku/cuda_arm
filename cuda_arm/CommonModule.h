@@ -12,6 +12,7 @@
 
 #include <new>  //
 #include <stdarg.h>
+#include <algorithm>
 using namespace std;
 //===============================================================================================
 //	defines
@@ -133,12 +134,13 @@ void log_init(_LOG_CALLBACK pcallback=0);
 const char*get_log(int idx);
 void write_log(const char*fmt, ...);
 
-void _Assert(bool a);
-void _Assert(bool a, const char*fmt ,...);
+
 void _Assert_log(bool a, const char* fmt, ...);	//csvに記録するタイプ。
 
-
-__device__ __host__ inline bool _gpuAssert(bool a, const char* fmt, ...)
+__device__ __host__
+void _Assert(bool a, const char*fmt ,...);      //※実際
+__device__ __host__ inline 
+bool _gpuAssert(bool a, const char* fmt, ...)
 {
 //	va_list ap;	va_start(ap, fmt);		//これはWINDOWSだけだが。。。
 	if (!a) {		//cudaで可変個引数がわからない
@@ -234,7 +236,10 @@ public:
         try {
             cpu = new T[sz];       //※デフォルトコンストラクタで作ります。
         }
-        catch (const bad_alloc& e) { printf("new[] failed(%s)\n", e.what()); _Assert(false, "cpu_gpu_mem : alloc failed "); }
+        catch (const bad_alloc& e) {
+            printf("new[] failed(%s)\n", e.what());
+            _Assert(false, "cpu_gpu_mem : alloc failed "); 
+        }
         //GPU
         cudaError_t e;
         if ((e = cudaMalloc((void**)&gpu, sz * sizeof(T))) != cudaSuccess) { _Assert(false, "cpugpu_alloc : cudaMalloc failed"); }
@@ -265,10 +270,12 @@ public:
     __host__ void free()
     {
         if (cpu != nullptr) {
-            delete cpu;
+            delete[] cpu;
+            cpu = nullptr;
         }
         if (gpu != nullptr) {
             cudaFree((void*)gpu);
+            gpu = nullptr;
         }
         size=0;
     }
@@ -287,15 +294,27 @@ public:
     }
     //もし自分がアロケートしてしまっていたらそれは削除します。
     __host__
-     cpu_gpu_mem<T>& operator=(const cpu_gpu_mem<T>& a){
-        free();
-        cpu = a._cpu();
-        gpu = a._gpu();
-        size = a._size();
+    cpu_gpu_mem<T>& operator=(const cpu_gpu_mem<T>& a){
+        if (this == &a) return *this; // 自己代入チェック
+        free(); // 既存のメモリを解放
+        size = a.size;
+        if (size > 0) {
+            // 新しいメモリを確保してコピー
+            cpu = new T[size];
+            std::copy(a.cpu, a.cpu + size, cpu);
+            cudaMalloc((void**)&gpu, size * sizeof(T));
+            cudaMemcpy(gpu, a.gpu, size * sizeof(T), cudaMemcpyDeviceToDevice);
+        } else {
+            cpu = nullptr;
+            gpu = nullptr;
+        }
         return *this;
     }
     //vector::back()と同じ関数
-    T& back(int location=CPU) const { return operator()(location, size - 1); }
+    __device__ __host__
+    T& back(int location=CPU) const {
+         return operator()(location, size - 1);
+    }
 };
 
 //======================================================================================

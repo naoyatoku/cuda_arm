@@ -17,7 +17,7 @@ int main()
       mlti<_Vector3d<float>,2>r = calc.calc_inv_kinetic(220, 320, 1.571);
 
       //検算する
-      _cood p = calc.calc_fwd_kinetic(&r[0][0]);
+      _cood p = calc.calc_fwd_kinetic(&r[0][0]);hak
       p = calc.calc_fwd_kinetic(&r[1][0]);
 
 #endif
@@ -33,7 +33,7 @@ int main()
 //    circle_circle_path();
 //    line_path();
     //ベジェ曲線上の軌跡を書いてみます。
-//    bezier_path();
+    bezier_path();
 
     if(hThread) {
         WaitForSingleObject(hThread, INFINITE); // スレッドが終了するのを待つ

@@ -3,67 +3,24 @@
   "WorkspaceRootPath": "C:\\private\\cuda\\cuda_arm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel_linear.cu||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\kernel_linear.cu||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\BuildCustomizations\\CUDA 12.2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel_bezier.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\kernel_bezier.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\units.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\units.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\CommonModule.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\CommonModule.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\link.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\link.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\inv_kinetic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\inv_kinetic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\draw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\draw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernels.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\kernels.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\main.cu||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\main.cu||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel_linear.cu||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\kernel_linear.cu||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\bezier.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\bezier.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\linear.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\linear.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\bezier.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\bezier.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\CommonModule.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\CommonModule.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\arm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\arm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\linear.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\linear.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\arm.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -74,12 +31,63 @@
       "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\draw.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel_bezier.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\kernel_bezier.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\CommonModule.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\CommonModule.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\bezier.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\bezier.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\bezier.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\bezier.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\units.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\units.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\units.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\units.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\arm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\arm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernels.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\kernels.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\inv_kinetic.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\inv_kinetic.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\BuildCustomizations\\CUDA 12.2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\CommonModule.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\CommonModule.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\inv_kinetic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\inv_kinetic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|C:\\private\\cuda\\cuda_arm\\cuda_arm\\draw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1646DB4-0619-44D3-9F52-C287B990C6D8}|cuda_arm\\cuda_arm.vcxproj|solutionrelative:cuda_arm\\draw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\MathFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -93,10 +101,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include\\cuda.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\util\\DisableStupidWarnings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cuda_arm\\Eigen\\src\\Core\\util\\DisableStupidWarnings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\arch\\CUDA\\Complex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cuda_arm\\Eigen\\src\\Core\\arch\\CUDA\\Complex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -108,8 +112,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 576,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "linear.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\linear.h",
+              "RelativeDocumentMoniker": "cuda_arm\\linear.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\linear.h",
+              "RelativeToolTip": "cuda_arm\\linear.h",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-15T06:47:33.818Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -121,42 +138,183 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "circle.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\circle.h",
-              "RelativeDocumentMoniker": "cuda_arm\\circle.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\circle.h",
-              "RelativeToolTip": "cuda_arm\\circle.h",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAAC0AAAAZAAAA",
+              "Title": "linear.cu",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\linear.cu",
+              "RelativeDocumentMoniker": "cuda_arm\\linear.cu",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\linear.cu",
+              "RelativeToolTip": "cuda_arm\\linear.cu",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-15T06:47:12.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CUDA 12.2.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\BuildCustomizations\\CUDA 12.2.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\BuildCustomizations\\CUDA 12.2.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\BuildCustomizations\\CUDA 12.2.targets",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\BuildCustomizations\\CUDA 12.2.targets",
+              "ViewState": "AQIAAA4DAAAAAAAAAAApwB4DAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-01-14T03:34:27.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cu",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\main.cu",
+              "RelativeDocumentMoniker": "cuda_arm\\main.cu",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\main.cu",
+              "RelativeToolTip": "cuda_arm\\main.cu",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-27T07:14:18.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "kernels.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernels.h",
+              "RelativeDocumentMoniker": "cuda_arm\\kernels.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernels.h",
+              "RelativeToolTip": "cuda_arm\\kernels.h",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAkwOwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-07T02:16:37.868Z"
+              "WhenOpened": "2024-11-28T02:50:44.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "units.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\units.h",
+              "RelativeDocumentMoniker": "cuda_arm\\units.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\units.h",
+              "RelativeToolTip": "cuda_arm\\units.h",
+              "ViewState": "AQIAAMsAAAAAAAAAAAASwOEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-26T05:31:29.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "link.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\link.h",
+              "RelativeDocumentMoniker": "cuda_arm\\link.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\link.h",
+              "RelativeToolTip": "cuda_arm\\link.h",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAmwIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-27T01:21:38.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommonModule.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\CommonModule.h",
+              "RelativeDocumentMoniker": "cuda_arm\\CommonModule.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\CommonModule.h",
+              "RelativeToolTip": "cuda_arm\\CommonModule.h",
+              "ViewState": "AQIAAMYAAAAAAAAAAADgv9YAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-26T05:48:15.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bezier.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\bezier.h",
+              "RelativeDocumentMoniker": "cuda_arm\\bezier.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\bezier.h",
+              "RelativeToolTip": "cuda_arm\\bezier.h",
+              "ViewState": "AQIAADcAAAAAAAAAAADgv0gAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-26T05:09:46.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "arm.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\arm.h",
+              "RelativeDocumentMoniker": "cuda_arm\\arm.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\arm.h",
+              "RelativeToolTip": "cuda_arm\\arm.h",
+              "ViewState": "AQIAADoAAAAAAAAAAAAlwLYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-27T01:22:11.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "kernel_bezier.cu",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel_bezier.cu",
+              "RelativeDocumentMoniker": "cuda_arm\\kernel_bezier.cu",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel_bezier.cu",
+              "RelativeToolTip": "cuda_arm\\kernel_bezier.cu",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAjwKMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-26T07:46:25.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "MathFunctions.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\MathFunctions.h",
-              "RelativeDocumentMoniker": "cuda_arm\\Eigen\\src\\Core\\MathFunctions.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\MathFunctions.h",
-              "RelativeToolTip": "cuda_arm\\Eigen\\src\\Core\\MathFunctions.h",
-              "ViewState": "AQIAABgGAAAAAAAAAAAAACQGAAAAAAAA",
+              "Title": "inv_kinetic.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\inv_kinetic.h",
+              "RelativeDocumentMoniker": "cuda_arm\\inv_kinetic.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\inv_kinetic.h",
+              "RelativeToolTip": "cuda_arm\\inv_kinetic.h",
+              "ViewState": "AQIAAE0AAAAAAAAAAAArwF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-07T02:16:14.285Z"
+              "WhenOpened": "2024-11-26T06:28:42.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DenseStorage.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\DenseStorage.h",
-              "RelativeDocumentMoniker": "cuda_arm\\Eigen\\src\\Core\\DenseStorage.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\DenseStorage.h",
-              "RelativeToolTip": "cuda_arm\\Eigen\\src\\Core\\DenseStorage.h",
-              "ViewState": "AQIAANwAAAAAAAAAAAAAAOgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-07T02:15:29.341Z"
+              "DocumentIndex": 5,
+              "Title": "arm.cu",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\arm.cu",
+              "RelativeDocumentMoniker": "cuda_arm\\arm.cu",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\arm.cu",
+              "RelativeToolTip": "cuda_arm\\arm.cu",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-26T08:04:12.942Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
+              "Title": "Complex.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\arch\\CUDA\\Complex.h",
+              "RelativeDocumentMoniker": "cuda_arm\\Eigen\\src\\Core\\arch\\CUDA\\Complex.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\arch\\CUDA\\Complex.h",
+              "RelativeToolTip": "cuda_arm\\Eigen\\src\\Core\\arch\\CUDA\\Complex.h",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAAAOoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-07T02:12:20.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "inv_kinetic.cu",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\inv_kinetic.cu",
+              "RelativeDocumentMoniker": "cuda_arm\\inv_kinetic.cu",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\inv_kinetic.cu",
+              "RelativeToolTip": "cuda_arm\\inv_kinetic.cu",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-26T06:35:07.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "cuda.h",
               "DocumentMoniker": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include\\cuda.h",
               "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include\\cuda.h",
@@ -169,78 +327,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "DisableStupidWarnings.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\util\\DisableStupidWarnings.h",
-              "RelativeDocumentMoniker": "cuda_arm\\Eigen\\src\\Core\\util\\DisableStupidWarnings.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\util\\DisableStupidWarnings.h",
-              "RelativeToolTip": "cuda_arm\\Eigen\\src\\Core\\util\\DisableStupidWarnings.h",
-              "ViewState": "AQIAADwAAAAAAAAAAAAMwEwAAAA8AAAA",
+              "Title": "DenseStorage.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\DenseStorage.h",
+              "RelativeDocumentMoniker": "cuda_arm\\Eigen\\src\\Core\\DenseStorage.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\DenseStorage.h",
+              "RelativeToolTip": "cuda_arm\\Eigen\\src\\Core\\DenseStorage.h",
+              "ViewState": "AQIAANwAAAAAAAAAAAAAAOgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-07T02:12:31.368Z"
+              "WhenOpened": "2025-01-07T02:15:29.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Complex.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\arch\\CUDA\\Complex.h",
-              "RelativeDocumentMoniker": "cuda_arm\\Eigen\\src\\Core\\arch\\CUDA\\Complex.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\arch\\CUDA\\Complex.h",
-              "RelativeToolTip": "cuda_arm\\Eigen\\src\\Core\\arch\\CUDA\\Complex.h",
-              "ViewState": "AQIAAN4AAAAAAAAAAAAAAOoAAAAAAAAA",
+              "DocumentIndex": 22,
+              "Title": "MathFunctions.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\MathFunctions.h",
+              "RelativeDocumentMoniker": "cuda_arm\\Eigen\\src\\Core\\MathFunctions.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\Eigen\\src\\Core\\MathFunctions.h",
+              "RelativeToolTip": "cuda_arm\\Eigen\\src\\Core\\MathFunctions.h",
+              "ViewState": "AQIAABgGAAAAAAAAAAAAACQGAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-07T02:12:20.726Z"
+              "WhenOpened": "2025-01-07T02:16:14.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CUDA 12.2.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\BuildCustomizations\\CUDA 12.2.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\BuildCustomizations\\CUDA 12.2.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\BuildCustomizations\\CUDA 12.2.targets",
-              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\BuildCustomizations\\CUDA 12.2.targets",
-              "ViewState": "AQIAABIDAAAAAAAAAAAiwCIDAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-12-27T03:43:02.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "arm.cu",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\arm.cu",
-              "RelativeDocumentMoniker": "cuda_arm\\arm.cu",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\arm.cu",
-              "RelativeToolTip": "cuda_arm\\arm.cu",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-26T08:04:12.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "kernel_bezier.cu",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel_bezier.cu",
-              "RelativeDocumentMoniker": "cuda_arm\\kernel_bezier.cu",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel_bezier.cu",
-              "RelativeToolTip": "cuda_arm\\kernel_bezier.cu",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-26T07:46:25.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "bezier.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\bezier.h",
-              "RelativeDocumentMoniker": "cuda_arm\\bezier.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\bezier.h",
-              "RelativeToolTip": "cuda_arm\\bezier.h",
-              "ViewState": "AQIAACcAAAAAAAAAAADwvysAAAAOAAAA",
+              "DocumentIndex": 14,
+              "Title": "circle.h",
+              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\circle.h",
+              "RelativeDocumentMoniker": "cuda_arm\\circle.h",
+              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\circle.h",
+              "RelativeToolTip": "cuda_arm\\circle.h",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAC0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-26T05:09:46.367Z"
+              "WhenOpened": "2025-01-07T02:16:37.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "bezier.cu",
               "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\bezier.cu",
               "RelativeDocumentMoniker": "cuda_arm\\bezier.cu",
@@ -248,11 +371,12 @@
               "RelativeToolTip": "cuda_arm\\bezier.cu",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-26T05:09:32.791Z"
+              "WhenOpened": "2024-12-26T05:09:32.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "draw.h",
               "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\draw.h",
               "RelativeDocumentMoniker": "cuda_arm\\draw.h",
@@ -264,127 +388,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "draw.cu",
               "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\draw.cu",
               "RelativeDocumentMoniker": "cuda_arm\\draw.cu",
               "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\draw.cu",
               "RelativeToolTip": "cuda_arm\\draw.cu",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAoAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAawD0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-11T06:33:37.141Z"
+              "WhenOpened": "2024-12-11T06:33:37.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "kernels.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernels.h",
-              "RelativeDocumentMoniker": "cuda_arm\\kernels.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernels.h",
-              "RelativeToolTip": "cuda_arm\\kernels.h",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-28T02:50:44.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "main.cu",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\main.cu",
-              "RelativeDocumentMoniker": "cuda_arm\\main.cu",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\main.cu",
-              "RelativeToolTip": "cuda_arm\\main.cu",
-              "ViewState": "AQIAABYAAAAAAAAAAAAMwCMAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-27T07:14:18.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "arm.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\arm.h",
-              "RelativeDocumentMoniker": "cuda_arm\\arm.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\arm.h",
-              "RelativeToolTip": "cuda_arm\\arm.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-27T01:22:11.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "link.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\link.h",
-              "RelativeDocumentMoniker": "cuda_arm\\link.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\link.h",
-              "RelativeToolTip": "cuda_arm\\link.h",
-              "ViewState": "AQIAAK8AAAAAAAAAAAAIwL8AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-27T01:21:38.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "CommonModule.cu",
               "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\CommonModule.cu",
               "RelativeDocumentMoniker": "cuda_arm\\CommonModule.cu",
               "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\CommonModule.cu",
               "RelativeToolTip": "cuda_arm\\CommonModule.cu",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADACAAAAAAAA",
+              "ViewState": "AQIAAM8BAAAAAAAAAADwv9cBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-26T08:38:15.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "inv_kinetic.cu",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\inv_kinetic.cu",
-              "RelativeDocumentMoniker": "cuda_arm\\inv_kinetic.cu",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\inv_kinetic.cu",
-              "RelativeToolTip": "cuda_arm\\inv_kinetic.cu",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-26T06:35:07.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "inv_kinetic.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\inv_kinetic.h",
-              "RelativeDocumentMoniker": "cuda_arm\\inv_kinetic.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\inv_kinetic.h",
-              "RelativeToolTip": "cuda_arm\\inv_kinetic.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T06:28:42.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CommonModule.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\CommonModule.h",
-              "RelativeDocumentMoniker": "cuda_arm\\CommonModule.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\CommonModule.h",
-              "RelativeToolTip": "cuda_arm\\CommonModule.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T05:48:15.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "kernel.cu",
               "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel.cu",
               "RelativeDocumentMoniker": "cuda_arm\\kernel.cu",
               "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel.cu",
               "RelativeToolTip": "cuda_arm\\kernel.cu",
-              "ViewState": "AQIAAK0AAAAAAAAAAAD4v68AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-26T05:44:48.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 12,
               "Title": "units.cu",
               "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\units.cu",
               "RelativeDocumentMoniker": "cuda_arm\\units.cu",
@@ -392,29 +433,18 @@
               "RelativeToolTip": "cuda_arm\\units.cu",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-26T05:44:21.531Z"
+              "WhenOpened": "2024-11-26T05:44:21.531Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "units.h",
-              "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\units.h",
-              "RelativeDocumentMoniker": "cuda_arm\\units.h",
-              "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\units.h",
-              "RelativeToolTip": "cuda_arm\\units.h",
-              "ViewState": "AQIAAFABAAAAAAAAAAAAAFwBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T05:31:29.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "kernel_linear.cu",
               "DocumentMoniker": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel_linear.cu",
               "RelativeDocumentMoniker": "cuda_arm\\kernel_linear.cu",
               "ToolTip": "C:\\private\\cuda\\cuda_arm\\cuda_arm\\kernel_linear.cu",
               "RelativeToolTip": "cuda_arm\\kernel_linear.cu",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAjwGAAAAAxAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAASwFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-26T04:53:48.786Z",
               "EditorCaption": ""

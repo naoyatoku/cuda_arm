@@ -455,8 +455,12 @@ void _Assert_log( bool a, const char*fmt,...){
 		exit(0);
 	}
 }
+__device__ __host__
 void _Assert(bool a, const char*fmt,...)
 {
+#if 1	//gpuで実行時にエラーになってしまうので、ここは強制的にこのようにします。可変個引数は使えない。
+	_gpuAssert(a,fmt);
+#else
 	va_list ap;	va_start(ap, fmt);		//これはWINDOWSだけだが。。。
 	if (!a) {
 //		Error(false, fmt)
@@ -464,8 +468,9 @@ void _Assert(bool a, const char*fmt,...)
 		exit(0);
 	}
 	va_end(ap);
-
+#endif
 }
+
 
 
 

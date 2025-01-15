@@ -138,7 +138,7 @@ __global__ void line_move_kernel(arm* _arm , linear* _line ,int* block_result , 
                     }
                     break;
                 case  FIN_POS_PASS:
-                    if(dir == linear::DIR_P){   //プラス方向に進行している場合、
+                    if(dir == DIR_P){   //プラス方向に進行している場合、
                         if( _arm->x >= tgt_pos->x ){
                             *fin=true;
                         }
@@ -299,7 +299,7 @@ void line_path()
                 dec_start.Transfer_to_GPU();                                                        //GPUへ転送
 */
                 _arm(CPU).set(_tgt_pos(CPU, END));  _arm.Transfer_to_GPU();
-                line_kernel(_arm.gpu ,  _line.gpu, tgt_spd, linear::DIR_M, &_tgt_pos.gpu[END], _path.gpu, _path_idx.gpu, FIN_SPD);      //
+                line_kernel(_arm.gpu ,  _line.gpu, tgt_spd, DIR_M, &_tgt_pos.gpu[END], _path.gpu, _path_idx.gpu, FIN_SPD);      //
                 approx_dec_time = *_path_idx.Transfer_to_CPU();
                 _path_idx(CPU) = 0; _path_idx.Transfer_to_GPU();        //0にして戻します。
                 //debug dump
@@ -317,7 +317,7 @@ void line_path()
                 _arm(CPU).set(_tgt_pos(CPU, START));
                 _arm.Transfer_to_GPU();                         //GPUへ転送
                 //やはりここで後の
-                line_kernel(_arm.gpu, _line.gpu, tgt_spd, linear::DIR_P, &_tgt_pos.gpu[END] , _path.gpu, _path_idx.gpu, FIN_POS_PASS);      //減速開始位置に
+                line_kernel(_arm.gpu, _line.gpu, tgt_spd, DIR_P, &_tgt_pos.gpu[END] , _path.gpu, _path_idx.gpu, FIN_POS_PASS);      //減速開始位置に
             }
 
 
@@ -337,7 +337,7 @@ void line_path()
                     _temparm(CPU) = _path(CPU,_path_idx(CPU) - 1  - t) ;    //最終位置からtさかのぼって考える(_path_idx - 1が、最終インデックスです。
                     _temparm.Transfer_to_GPU();                         //gpuに送る
                     printf("dec try [-%d]\r\n", t);
-                    line_kernel( _temparm.gpu , _line.gpu, 0, linear::DIR_P, &_tgt_pos.gpu[END], decpath[t].gpu, decpath_idx[t].gpu, FIN_SPD);
+                    line_kernel( _temparm.gpu , _line.gpu, 0, DIR_P, &_tgt_pos.gpu[END], decpath[t].gpu, decpath_idx[t].gpu, FIN_SPD);
                     _dump_path(decpath[t], decpath_idx[t]);
                     //本来、ここで一番いいものを選定します。
                     //

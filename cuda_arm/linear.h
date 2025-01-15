@@ -34,10 +34,6 @@ public:
 	}
 
 	//直線の場合は、ｘ軸が進む方向を+,
-	enum{
-    	DIR_P=1, 
-    	DIR_M=-1,
-	};
 	__device__ __host__ vec2 progress(const vec2 &start, double dist ,int dir) const
     {
        double dx = dir * dist * sqrt(1/(1+_a));

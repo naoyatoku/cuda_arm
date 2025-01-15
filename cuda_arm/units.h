@@ -184,9 +184,15 @@ struct rvec2
 
 		//加速度は、とりあえず角度の速度だけを考慮します。
 		//今回の速度です。
+		// 
+		//r - this_this-r =  Δrad は、ms分の進み量。速度 [rad/sec]に直すには、 Δrad / (ms/1000) ※ ms=1のとき、Δrad * 1000 となる
+
 		d.spd = (r - old_this.r) / (ms/1000);		//Δr / Δt     =>    ((r-old_this.r)*1000) / (ms*1000) mm/sec
-		//加速度です。
-		d.acc = (d.spd - old_this.d.spd) / (ms / 1000);			//
+		//↑この時点で、rad/secとなっている。
+		// 
+		//加速度は、上記で計算した	d.spd [rad/sec]  - old_this.rad[rad/sec] = Δspd　[rad/sec] ※msあたり　のため、
+		//	rad/sec・sec(1secでの加速度)にするには、 Δspd / (ms / 1000)　※
+		d.acc = (d.spd - old_this.d.spd) / (ms / 1000);			
 
 //		d.acc = (r - old_this.r) / ms * 1000.0 - old_this.d.spd;		//現在の速度に足す速度が加速度です。(rad/s^2)
 //		d.spd = old_this.d.spd + d.acc;		//現在の速度に加速度を足す。
@@ -209,10 +215,16 @@ struct _cood : public vec2
 	spd_acc	wd;				//角度に関する速度と各速度に一応しておきます。
 
 	//付加情報です。処理中に都合のよい値を保存しておけるようにしておきます。
-	char	additioal_inf[ADD_INF_SZ];
+	//int型のほうがデバッグ時にわかりやすいのでこうしておきます。doubleが指示されても
+	 alignas(8)	int	additioal_inf[ADD_INF_SZ/sizeof(int)];
 
     __device__ __host__ _cood():vec2(),rad(0.0){;}
 	__device__ __host__ _cood(vec2 v,float _rad,spd_acc _wd=spd_acc() ):vec2(v),rad(_rad), wd(_wd) {;}
+#if 1		//debug デストラクタよびだし
+	__device__ __host__ ~_cood() {
+		wd.acc = 1;	//ダミー処理です。デバッグのため
+	}
+#endif
 
 	//operator
 	__device__ __host__ _cood operator-(const _cood a)	const	{
@@ -279,13 +291,13 @@ struct _cood : public vec2
 	template<class T>
 	__device__ __host__
 	void write_add_info(const T &a){
-		_Assert(sizeof(T) < ADD_INF_SZ, "write_add_info() : size is too large");
+		_gpuAssert(sizeof(T) < ADD_INF_SZ, "write_add_info() : size is too large");
 		memcpy((void*)&additioal_inf[0], &a, sizeof(T));
 	}
 	template<class T>
 	__device__ __host__
 	T &read_add_info(void)const{
-		_Assert(sizeof(T) < ADD_INF_SZ, "read_add_info() : size is too large");
+		_gpuAssert(sizeof(T) < ADD_INF_SZ, "read_add_info() : size is too large");
 		return *(T*)&additioal_inf[0];
 	}
 };
